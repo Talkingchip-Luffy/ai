@@ -1,9 +1,10 @@
 import React from 'react'
-
 import './style.css'
+
 type ILoadingProps = {
   type?: 'area' | 'app'
 }
+
 const Loading = (
   { type = 'area' }: ILoadingProps = { type: 'area' },
 ) => {
@@ -22,8 +23,8 @@ const Loading = (
           </clipPath>
         </defs>
       </svg>
-
     </div>
   )
 }
+
 export default Loading
